@@ -7,9 +7,10 @@ def createProbabilityBoard(height, width):
         for j in range(width):
             current.append(0)
         board.append(current)
-    return board
+    return boardxw
 
 def getReward(action, rewardBoard):
+    pass
 
 def selectAction(probabilityBoard, rewardBoard):
 #loop until board converges? 
@@ -18,9 +19,11 @@ def selectAction(probabilityBoard, rewardBoard):
     reward = getReward(action, rewardBoard)
     averageReward = 
     probabilityBoard = updateProbabilites(probabilityBoard, reward, averageReward)
+    pass
 
 def updateProbabilites(probabiltyBoard, reward, averageReward):
 #update probabilites based on stochastic gtadient ascent algorithm
+    pass
 
 
 
